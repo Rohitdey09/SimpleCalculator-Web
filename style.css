@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+.calc{
+    max-height: 50vh;
+    width: 25%;
+    height: 25%;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-color: #ff111111;
+}
+
+.display{
+    background-color: aliceblue;
+    font-size: 28px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.num{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    
+    
+}
+
+button{
+    margin:3px;
+    padding: 12px;
+    border-radius: 24px;
+}
+
